@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="typed.min.js"></script>
+    <title>Portfolio</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md">
+        <!-- Brand/logo -->
+        <a class="navbar-brand" href="#">PORTFO<span>LIO</span></a>
+
+<!-- Toggler/collapsibe Button -->
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+  <div class="toggle"></div>
+  <div class="toggle"></div>
+  <div class="toggle"></div>
+</button>
+
+        <!-- Links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+        </div>
+      </nav>
+      <div class="text">
+        <p>Hello, I am</p>
+        <h1>Teena Gupta</h1>
+        <p>And I am a <span id="ani" style="color: yellow;"></span></p>
+        <a href="#contact">
+        <button class="c-btn">Hire Me
+        </button>
+        </a>
+      </div>
+    </header>
+
+    <section id="about">
+      <div class="section-info">
+        <h1>About</h1>
+        <p>Who i am?</p>
+      </div>
+
+      <div class="about-row">
+        <div class="about-left-col">
+          <img src="img/about.jpg" />
+        </div>
+        <div class="about-right-col">
+          <p id="p-title">Hello, I'm Teena & I'm a <span id="ani2" style="color: #e74c3c;"></span></p>
+          <p>
+            I am Teena Gupta. I am pursuing B.Sc in Mathematics, currently I am
+            in third year. I have done some projects in Web Designing using
+            HTML5, CSS3, JavaScript, Bootstrap, Responsive Web Design, PHP,
+            MySQL, Python, Django, Adobe Photoshop, Animation, GitHub and
+            WordPress. Currently I am looking for an Internship or Full time Job
+            in Web Designing.
+          </p>
+          <button class="c-btn">
+            <a href="https://drive.google.com/file/d/1vRZeVTljMLMPmlcnJwXKmWf0eqGXmfUD/view?usp=sharing" target="_blank"> Download CV
+              </a>
+            </button>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="section-info">
+        <h1 style="color: white">Skill's</h1>
+        <p>What i know</p>
+      </div>
+
+      <div class="skills-row">
+        <div class="skills-left-col">
+          <ul>
+            <li>
+              <a href="https://teena-gupta.github.io/mydiary.github.io/">
+                <span>My First Website</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://teenagupta.github.io/HCJS/">
+                <span>My First JavaScript Project</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://teenagupta.github.io/teenagupta/">
+                <span>My First WordPress Website</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://teenagupta.github.io/Portfolio/https://teenagupta.github.io/Portfolio/"
+              >
+                <span>My First Animation Website</span>
+              </a>
+            </li>
+          </ul>
+          <a href="https://github.com/TeenaGupta">
+          <button class="c-btn">Read More
+          </button>
+        </a>
+        </div>
+        <div class="skills-right-col">
+          <div class="progress-div">
+            <p>
+              <span>HTML</span><br>
+              <progress value="90" max="100"></progress>
+              <span>90%</span>
+            </p>
+            <p>
+              <span>CSS</span><br>
+              <progress value="80" max="100"></progress>
+              <span>80%</span>
+            </p>
+            <p>
+              <span>JAVASCRIPT</span><br>
+              <progress value="50" max="100"></progress>
+              <span>50%</span>
+            </p>
+            <p>
+              <span>BOOTSTRAP</span><br>
+              <progress value="90" max="100"></progress>
+              <span>90%</span>
+            </p>
+            <p>
+              <span>RESPONSIVE</span><br>
+              <progress value="70" max="100"></progress>
+              <span>70%</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="section-info" style="color: white">
+        <h1>Get in Touch</h1>
+        <p style="color: black">I am Available</p>
+      </div>
+      <div class="contact-row">
+        <div class="contact-left-col">
+          <img src="img/contact.png" />
+        </div>
+        <div class="contact-right-col">
+          <form action="https://formspree.io/f/xjvpdlag" method="POST" id="my-form"> 
+            <h2>Connect With me</h2>
+            <input type="text" name="name" placeholder="Name" />
+            <input type="email" name="email" placeholder="E-mail" />
+            <br />
+            <textarea rows="5" name="text" placeholder="Message"></textarea>
+            <br />
+            <button class="c-btn" type="submit">Submit</button>
+          </form>
+          <div id="status"></div>
+        </div>
+        
+      </div>
+    </section>
+
+    <section id="footer">
+      <div class="footer-row">
+        <div class="footer-left-col">
+      <h2>Social links</h2>
+</div>
+<div class="footer-right-col">
+      <a href="https://www.linkedin.com/in/teenagupta28/">
+        <i class="fa fa-linkedin" aria-hidden="true"></i>
+      </a>
+      <a href="https://github.com/TeenaGupta">
+        <i class="fa fa-github" aria-hidden="true"></i>
+      </a>
+      <a href="https://www.instagram.com/my_creativediary/">
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+      </a>
+      </div>
+      </div>
+    </section>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script>
+      let animate= new Typed('#ani', {
+        strings:["Front","End","Developer."],
+        typeSpeed:100,
+        backSpeed:100,
+        loop:true,
+      })
+    </script>
+ 
+ <script>
+  let animat= new Typed('#ani2', {
+    strings:["Designer", "and", "Developer."],
+    typeSpeed:100,
+    backSpeed:100,
+    loop:true,
+  })
+</script>
+<script src="main.js"></script>
+  </body>
+</html>
